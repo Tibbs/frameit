@@ -235,7 +235,7 @@ module Frameit
           i.draw "text 0,0 '#{text}'"
           i.fill fetch_config[key.to_s]['color']
         end
-        title_image.trim # remove white space
+        #title_image.trim # remove white space
 
         results[key] = title_image
       end
